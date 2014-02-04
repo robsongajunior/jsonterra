@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Teste terra.com.br</title>
+	<link type="text/css" rel="stylesheet" href="./assets/css/1.0_style.css">
+	<script type="text/javascript" src="./assets/javascripts/1.0_jquery-1.9.1.js"></script>
+</head>
+<body>
+	<header>
+		<a id="logo" href="http://www.terra.com.br/portal/" target="_blank" title="Portal Terra"></a>
+	</header>
+
+	<section class="wrap-content">
+		<h1>Teste Robson Júnior</h1>
+		
+		<article class="box-divise fl">
+			<p><strong>Implemente em Javascript o seguinte algoritimo.</strong></p>
+			<p>
+				- receber o saeguinte JSON como feed: <a href="http://s1.trrsf.com/navbar/js/nav_121.js" target="_blank">http://s1.trrsf.com/navbar/js/nav_121.js</a>
+				<br>
+				- receber um id de parametro;
+				<br>
+				<br>
+				este id sera multinivel, cada nivel separado por um hifen
+				<br>
+				exemplo, esp-auto-indy
+				<br>
+				<br>
+				- retornar o campo "label" e "url" deste nivel;
+				<br>
+				ex: label:"automibilismo", url: "http://esportes.terra.com.brautomobilismo"
+			</p>
+		</article>
+		
+		<article class="box-divise fr">
+			<p>
+				Entre com a {ID} para realizar a consulta.
+				<br>
+				Exemplo: {services-countries-arge}
+			</p>
+
+			<form>
+				<label>ID de pesquisa <small>(ex: services-countries-arge)</small></label>
+				<input type="text" name="s">
+				<input type="submit" value="Consultar" id="submit">
+
+				<div id="responseContent">
+					
+				</div>
+			</form>
+		</article>		
+	</section>
+
+	<script type="text/javascript" src="./assets/javascripts/function.js"></script>
+</body>
+</html>

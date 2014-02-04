@@ -1,0 +1,139 @@
+* {
+  font-smooth: always;
+  -webkit-font-smoothing: antialiased;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  overflow-y: scroll !important;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+h1,h2,h3,h4,h5,h6{
+  display: block;
+  line-height: 160%;
+  margin: 0 0 20px;
+}
+
+p{
+   line-height: 140%;
+   margin: 0 0 20px;
+}
+
+body{
+  font-family: 'Arial';
+  font-size: 14px;
+  color: #333333;
+  background: #eee;
+}
+
+header{
+  display: block;
+  background: #FF9900;
+  width: 100%; height: 75px;
+  border-bottom: solid 1px #FFFFFF;
+  box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+  margin: 0 0 20px;
+}
+
+a{
+  color: #FF9900;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+#logo{
+  display: block;
+  width: 170px;
+  height: 60px;
+  margin: 0 auto;
+  background: url('../images/terra.png') no-repeat 0 0 transparent;
+  position: relative;
+  top: 4px;
+}
+
+.wrap-content{
+  width: 100%;
+  padding: 30px;
+
+   -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.box-divise{
+  background: #F5F5F5;
+  width: 48.5%; min-height: 260px;
+  border: solid 1px #FFFFFF;
+  border-radius: 3px;
+  padding: 20px;
+  box-shadow: 0 0 3px rgba(0,0,0,0.15);
+
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.box-divise.fl{
+  float: left;
+}
+
+.box-divise.fr{
+  float: right;
+}
+
+hr{
+  margin: 10px 0 20px;
+  height: 1px;
+  border: none;
+  border-bottom: dotted 1px #cccccc;
+}
+
+form{
+  position: relative;
+}
+
+label{
+  margin: 0 0 5px;
+  display: block;
+}
+
+input[type="text"]{
+  border: solid 1px #CCCCCC;
+  padding: 5px 10px;
+  border-radius: 3px;
+  width: 200px;
+}
+
+input[type="submit"]{
+  border-radius: 3px;
+  background: #FF9900;
+  color: #FFFFFF;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+input[type="submit"]:hover{
+  box-shadow: inset 0 0 100px rgba(0,0,0,0.12);
+}
+
+#responseContent{
+  height: 60px;
+  margin: 22px 0 0;
+}
